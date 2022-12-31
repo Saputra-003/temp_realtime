@@ -35,7 +35,7 @@ $host   = "riset.revolusi-it.com";
 $port     = 1883;
 $username = "";
 $password = "";
-$topic    = "iot/suhu";
+$topic    = "iot/G_241_21_0004";
 $mqtt = new bluerhinos\phpMQTT($host, $port, "G.241.21.0004-" . rand());
 
 buka_koneksi_mysql();
